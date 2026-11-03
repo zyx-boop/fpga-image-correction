@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "pan_us": 1611,
+  "tilt_us": 1278,
+  "pan_low_us": 1000,
+  "pan_high_us": 2000,
+  "tilt_low_us": 1000,
+  "tilt_high_us": 2000,
+  "pan_recorded": false,
+  "tilt_recorded": false
+}

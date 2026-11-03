@@ -1,0 +1,3955 @@
+{
+  "configurations": [
+    {
+      "instance": "pll",
+      "source_configuration_sha256": "fbc0f424186e59d7f2dbd0e66e63f2cfca1e18e070689631aef6c7b2e1d0cfdf",
+      "header": {
+        "vendor": "Pango",
+        "id": "041001",
+        "display_name": "PLL",
+        "name": "28nm PLL",
+        "version": "1.5",
+        "instance": "pll",
+        "family": "Logos2",
+        "device": "PG2L100H",
+        "package": "FBG676",
+        "speedgrade": "-6",
+        "generator": "IP Compiler"
+      },
+      "parameters": [
+        {
+          "name": "PLL_SEL_advancedPage",
+          "value": "0"
+        },
+        {
+          "name": "CLKOUT7_BUFX_EN",
+          "value": "false"
+        },
+        {
+          "name": "PLL_PWD_EN_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_RATIO5_basicPage",
+          "value": "1"
+        },
+        {
+          "name": "CLKOUT8_EN_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT7_EN_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_CPHASE0",
+          "value": "0"
+        },
+        {
+          "name": "STATIC_RATIO3",
+          "value": "21"
+        },
+        {
+          "name": "CLKOUT8_REQ_DUTY_advancedPage",
+          "value": "24"
+        },
+        {
+          "name": "CLKOUT4_DPS_SEL_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_PHASE1_advancedPage",
+          "value": "0"
+        },
+        {
+          "name": "InsertPhase_advancedPage",
+          "value": "0"
+        },
+        {
+          "name": "CLKOUT2_BUFXCE_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT4_SYN_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT2_EN_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_RATIO2_advancedPage",
+          "value": "24"
+        },
+        {
+          "name": "CLKOUT7_N_EN_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_RATIOI",
+          "value": "1"
+        },
+        {
+          "name": "CLKOUT2_GATE_EN_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT6_BUFG_EN",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_DUTY8",
+          "value": "2"
+        },
+        {
+          "name": "CLKOUT3_REQ_PHASE_basicPage",
+          "value": "0.000000",
+          "decimal": "6"
+        },
+        {
+          "name": "STATIC_DUTY2",
+          "value": "42"
+        },
+        {
+          "name": "CLKOUT7_NOBUF_EN",
+          "value": "true"
+        },
+        {
+          "name": "DYNAMIC_PHASE_EN",
+          "value": "false"
+        },
+        {
+          "name": "FB_MODE_advancedPage",
+          "value": "0"
+        },
+        {
+          "name": "CLKOUT0_N_EN_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT5_GATE_EN_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT7_BUFFER_OPTION_advancedPage",
+          "value": "NO BUFFER"
+        },
+        {
+          "name": "CLKOUT5_EN_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT1_SYN_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT5_BUFFER_OPTION_advancedPage",
+          "value": "NO BUFFER"
+        },
+        {
+          "name": "CLKOUT2_REQ_DUTY_basicPage",
+          "value": "50.000000",
+          "decimal": "6"
+        },
+        {
+          "name": "CLKIN2_INBUF_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT0_REQ_PHASE_basicPage",
+          "value": "0.000000",
+          "decimal": "6"
+        },
+        {
+          "name": "CLKOUT2_N_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT1_N_EN_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT2_IOCLKBUF_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT8_GATE_EN_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_PHASE7",
+          "value": "0"
+        },
+        {
+          "name": "CLKOUT3_N_EN_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT2_SYN_EN",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_CPHASE7_advancedPage",
+          "value": "0"
+        },
+        {
+          "name": "CLKOUT6_BUFXCE_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKIN1_SOURCE_advancedPage",
+          "value": "No Buffer"
+        },
+        {
+          "name": "CLK_DPS7_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT2_DPS_SEL_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_FRAC0_advancedPage",
+          "value": "0"
+        },
+        {
+          "name": "CLKOUT4_BUFG_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT6_EN_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT0_BUFR_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT0_EN_basicPage",
+          "value": "true"
+        },
+        {
+          "name": "STATIC_CPHASE1",
+          "value": "0"
+        },
+        {
+          "name": "CLKOUT5_EN",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_CPHASE8_advancedPage",
+          "value": "0"
+        },
+        {
+          "name": "STATIC_RATIO8",
+          "value": "1"
+        },
+        {
+          "name": "CLKOUT5_EN_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT7_BUFG_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT7_BUFFER_OPTION_basicPage",
+          "value": "NO BUFFER"
+        },
+        {
+          "name": "CLKOUT4_REQ_DUTY_basicPage",
+          "value": "50.000000",
+          "decimal": "6"
+        },
+        {
+          "name": "STATIC_CPHASE5_advancedPage",
+          "value": "0"
+        },
+        {
+          "name": "STATIC_DUTY6",
+          "value": "21"
+        },
+        {
+          "name": "STATIC_DUTY0",
+          "value": "14"
+        },
+        {
+          "name": "CLKIN_FREQ_advancedPage",
+          "value": "50.00000000",
+          "decimal": "8"
+        },
+        {
+          "name": "STATIC_CPHASE6_advancedPage",
+          "value": "0"
+        },
+        {
+          "name": "STATIC_PHASE2",
+          "value": "0"
+        },
+        {
+          "name": "STATIC_PHASE4_advancedPage",
+          "value": "0"
+        },
+        {
+          "name": "FB_MODE",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_FRAC7_advancedPage",
+          "value": "0"
+        },
+        {
+          "name": "CLKIN1_INBUF_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT1_REQ_DUTY_basicPage",
+          "value": "50.000000",
+          "decimal": "6"
+        },
+        {
+          "name": "CLKOUT4_GATE_EN_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT6_EN",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_RATIO8_advancedPage",
+          "value": "24"
+        },
+        {
+          "name": "STATIC_RATIO6_advancedPage",
+          "value": "24"
+        },
+        {
+          "name": "CLKOUT8_SYN_EN",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_CPHASE3",
+          "value": "0"
+        },
+        {
+          "name": "CLKOUT0_N_EN_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT7_REQ_DUTY_advancedPage",
+          "value": "24"
+        },
+        {
+          "name": "CLKOUT5_BUFG_EN",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_PHASE7_advancedPage",
+          "value": "0"
+        },
+        {
+          "name": "CLKOUT2_BUFFER_OPTION_basicPage",
+          "value": "NO BUFFER"
+        },
+        {
+          "name": "CLKOUT6_REQ_DUTY_advancedPage",
+          "value": "24"
+        },
+        {
+          "name": "CLKOUT2_BUFCE",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_DUTY1",
+          "value": "104"
+        },
+        {
+          "name": "CLKOUT2_BUFR_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKIN2_NOBUF_EN",
+          "value": "true"
+        },
+        {
+          "name": "CLKOUT4_REQ_FREQ_basicPage",
+          "value": "50.00000000",
+          "decimal": "8"
+        },
+        {
+          "name": "CLKOUT1_DPS_SEL_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "DYNAMIC_PHASE_EN_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT3_NOBUF_EN",
+          "value": "true"
+        },
+        {
+          "name": "STATIC_CPHASE4_advancedPage",
+          "value": "0"
+        },
+        {
+          "name": "CLKOUT2_BUFX_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT1_N_EN_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_RATIO2",
+          "value": "42"
+        },
+        {
+          "name": "CLKOUT2_BUFG_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT1_BUFR_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT1_EN_basicPage",
+          "value": "true"
+        },
+        {
+          "name": "CLKOUT5_SYN_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT8_REQ_DUTY_basicPage",
+          "value": "50.000000",
+          "decimal": "6"
+        },
+        {
+          "name": "CLKOUT0_SYN_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT4_REQ_DUTY_advancedPage",
+          "value": "24"
+        },
+        {
+          "name": "APB_EN_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_DUTY3",
+          "value": "21"
+        },
+        {
+          "name": "CLKOUT4_BUFCE",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT3_BUFG_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT0_BUFFER_OPTION_advancedPage",
+          "value": "NO BUFFER"
+        },
+        {
+          "name": "CLKOUT6_SYN_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT1_BUFXCE_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT1_N_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT5_GATE_EN_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_RATIO7_advancedPage",
+          "value": "24"
+        },
+        {
+          "name": "CLKOUT3_EN_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_PHASE8",
+          "value": "0"
+        },
+        {
+          "name": "CLKOUT0_N_EN",
+          "value": "false"
+        },
+        {
+          "name": "BANDWIDTH_advancedPage",
+          "value": "OPTIMIZED"
+        },
+        {
+          "name": "CLKOUT7_EN_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT3_EN_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT7_SYN_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKIN1_INBUFDS_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT7_REQ_DUTY_basicPage",
+          "value": "50.000000",
+          "decimal": "6"
+        },
+        {
+          "name": "CLKOUT3_BUFR_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT2_EN",
+          "value": "true"
+        },
+        {
+          "name": "CLKOUT8_REQ_PHASE_basicPage",
+          "value": "0.000000",
+          "decimal": "6"
+        },
+        {
+          "name": "CLKOUT3_BUFXCE_EN",
+          "value": "false"
+        },
+        {
+          "name": "SSC_EN_advancedPage",
+          "value": "DISABLE"
+        },
+        {
+          "name": "CLKOUT0_GATE_EN_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT0_REQ_FREQ_basicPage",
+          "value": "74.25000000",
+          "decimal": "8"
+        },
+        {
+          "name": "PLL_PWD_EN_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "SSC_FREQ_basicPage",
+          "value": "25"
+        },
+        {
+          "name": "CLKOUT5_BUFFER_OPTION_basicPage",
+          "value": "NO BUFFER"
+        },
+        {
+          "name": "CLKOUT1_REQ_PHASE_basicPage",
+          "value": "0.000000",
+          "decimal": "6"
+        },
+        {
+          "name": "CLK_DPS5_EN",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_CPHASE0_advancedPage",
+          "value": "0"
+        },
+        {
+          "name": "INTERNAL_FB",
+          "value": "CLKOUTF"
+        },
+        {
+          "name": "CLKOUT6_NOBUF_EN",
+          "value": "true"
+        },
+        {
+          "name": "SSC_FREQ",
+          "value": "25"
+        },
+        {
+          "name": "CLKOUT2_REQ_FREQ_basicPage",
+          "value": "25.00000000",
+          "decimal": "8"
+        },
+        {
+          "name": "RST_INNER_EN_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT6_BUFGCE_EN",
+          "value": "false"
+        },
+        {
+          "name": "APB_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKIN2_SOURCE_advancedPage",
+          "value": "No Buffer"
+        },
+        {
+          "name": "LOCK_MODE_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "CLK_DPS3_EN",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_PHASE8_advancedPage",
+          "value": "0"
+        },
+        {
+          "name": "CLKOUT3_N_EN",
+          "value": "false"
+        },
+        {
+          "name": "FB_basicPage",
+          "item": "6",
+          "value": "7"
+        },
+        {
+          "name": "STATIC_RATIO3_advancedPage",
+          "value": "24"
+        },
+        {
+          "name": "CLKOUT3_N_EN_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT0_EN",
+          "value": "true"
+        },
+        {
+          "name": "RST_INNER_EN",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_PHASE6_advancedPage",
+          "value": "0"
+        },
+        {
+          "name": "DEVICE_Titan2",
+          "value": "false"
+        },
+        {
+          "name": "CLKIN2_SOURCE_basicPage",
+          "value": "No Buffer"
+        },
+        {
+          "name": "STATIC_CPHASE6",
+          "value": "0"
+        },
+        {
+          "name": "STATIC_RATIO7",
+          "value": "19.25",
+          "decimal": "-1"
+        },
+        {
+          "name": "CLK_DPS6_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLK_CAS5_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT5_NOBUF_EN",
+          "value": "true"
+        },
+        {
+          "name": "BANDWIDTH",
+          "value": "OPTIMIZED"
+        },
+        {
+          "name": "CLKOUT0_IOCLKBUF_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT0_NOBUF_EN",
+          "value": "true"
+        },
+        {
+          "name": "CLKOUT1_BUFX_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT4_BUFFER_OPTION_basicPage",
+          "value": "NO BUFFER"
+        },
+        {
+          "name": "CLKOUT8_N_EN_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT8_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT5_REQ_FREQ_basicPage",
+          "value": "50.00000000",
+          "decimal": "8"
+        },
+        {
+          "name": "RST_INNER_EN_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_CPHASE2_advancedPage",
+          "value": "0"
+        },
+        {
+          "name": "CLKOUT1_BUFFER_OPTION_basicPage",
+          "value": "NO BUFFER"
+        },
+        {
+          "name": "DYNAMIC_PHASE_EN_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT4_BUFGCE_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT0_DPS_SEL_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT3_GATE_EN_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT1_BUFGCE_EN",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_PHASE",
+          "value": "0"
+        },
+        {
+          "name": "CLKOUT8_N_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT6_REQ_DUTY_basicPage",
+          "value": "50.000000",
+          "decimal": "6"
+        },
+        {
+          "name": "ODIV5_CASCADE_EN_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT8_N_EN_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT0_EN_advancedPage",
+          "value": "true"
+        },
+        {
+          "name": "CLKOUT6_BUFX_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT4_GATE_EN_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT3_DPS_SEL_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT1_BUFG_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKIN1_NOBUF_EN",
+          "value": "true"
+        },
+        {
+          "name": "STATIC_PHASE3",
+          "value": "0"
+        },
+        {
+          "name": "CLKOUT6_GATE_EN_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT0_REQ_DUTY_basicPage",
+          "value": "50.000000",
+          "decimal": "6"
+        },
+        {
+          "name": "STATIC_PHASE2_advancedPage",
+          "value": "0"
+        },
+        {
+          "name": "STATIC_RATIO4_advancedPage",
+          "value": "24"
+        },
+        {
+          "name": "CLK_DPS2_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT6_REQ_FREQ_basicPage",
+          "value": "50.00000000",
+          "decimal": "8"
+        },
+        {
+          "name": "STATIC_RATIO0_advancedPage",
+          "value": "24"
+        },
+        {
+          "name": "FB_MODE_basicPage",
+          "value": "0"
+        },
+        {
+          "name": "CLKOUT8_REQ_FREQ_basicPage",
+          "value": "50.00000000",
+          "decimal": "8"
+        },
+        {
+          "name": "CLKOUT8_EN_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "PLL_PWD_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT5_REQ_DUTY_advancedPage",
+          "value": "24"
+        },
+        {
+          "name": "PLL_SEL_basicPage",
+          "value": "0"
+        },
+        {
+          "name": "DYNAMIC_CLKIN_EN_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_DUTY7",
+          "value": "19"
+        },
+        {
+          "name": "STATIC_RATIOM_advancedPage",
+          "value": "1"
+        },
+        {
+          "name": "STATIC_PHASE3_advancedPage",
+          "value": "0"
+        },
+        {
+          "name": "STATIC_RATIOM",
+          "value": "2"
+        },
+        {
+          "name": "CLKOUT3_REQ_FREQ_basicPage",
+          "value": "50.00000000",
+          "decimal": "8"
+        },
+        {
+          "name": "CLKOUT2_N_EN_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_PHASE0",
+          "value": "0"
+        },
+        {
+          "name": "STATIC_DUTY4",
+          "value": "21"
+        },
+        {
+          "name": "STATIC_RATIO1_advancedPage",
+          "value": "24"
+        },
+        {
+          "name": "CLKOUT7_DPS_SEL_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKIN_FREQ_basicPage",
+          "value": "27.00000000",
+          "decimal": "8"
+        },
+        {
+          "name": "CLKOUT1_GATE_EN_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_CPHASE2",
+          "value": "0"
+        },
+        {
+          "name": "APB_EN_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKIN1_SOURCE_basicPage",
+          "value": "No Buffer"
+        },
+        {
+          "name": "DEVICE_PG2L50H",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT3_BUFFER_OPTION_advancedPage",
+          "value": "NO BUFFER"
+        },
+        {
+          "name": "STATIC_RATIO4",
+          "value": "21"
+        },
+        {
+          "name": "CLKOUT3_BUFGCE_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT3_BUFFER_OPTION_basicPage",
+          "value": "NO BUFFER"
+        },
+        {
+          "name": "CLKOUT3_DPS_SEL_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "PLL_MODE",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT1_REQ_FREQ_basicPage",
+          "value": "10.00000000",
+          "decimal": "8"
+        },
+        {
+          "name": "SSC_FREQ_advancedPage",
+          "value": "25"
+        },
+        {
+          "name": "CLKOUT5_BUFGCE_EN",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_RATIO0",
+          "value": "14.0",
+          "decimal": "-1"
+        },
+        {
+          "name": "STATIC_CPHASE7",
+          "value": "0"
+        },
+        {
+          "name": "CLKOUT0_DPS_SEL_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT4_REQ_PHASE_basicPage",
+          "value": "0.000000",
+          "decimal": "6"
+        },
+        {
+          "name": "LOCK_MODE",
+          "value": "0"
+        },
+        {
+          "name": "STATIC_CPHASE5",
+          "value": "0"
+        },
+        {
+          "name": "CLKOUT0_GATE_EN_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKIN1_BUFG_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT3_SYN_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT7_REQ_PHASE_basicPage",
+          "value": "0.000000",
+          "decimal": "6"
+        },
+        {
+          "name": "CLKOUT2_REQ_DUTY_advancedPage",
+          "value": "24"
+        },
+        {
+          "name": "EXTERNAL_FB",
+          "value": "DISABLE"
+        },
+        {
+          "name": "STATIC_CPHASE3_advancedPage",
+          "value": "0"
+        },
+        {
+          "name": "STATIC_PHASE4",
+          "value": "0"
+        },
+        {
+          "name": "CLKOUT6_BUFCE",
+          "value": "false"
+        },
+        {
+          "name": "DYNAMIC_CLKIN_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT4_BUFX_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT6_DPS_SEL_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT6_BUFFER_OPTION_advancedPage",
+          "value": "NO BUFFER"
+        },
+        {
+          "name": "ODIV5_CASCADE_EN_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT7_BUFCE",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_RATIO5",
+          "value": "21"
+        },
+        {
+          "name": "CLKOUT4_EN_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_PHASE0_advancedPage",
+          "value": "0"
+        },
+        {
+          "name": "CLKOUT0_BUFFER_OPTION_basicPage",
+          "value": "NO BUFFER"
+        },
+        {
+          "name": "CLKOUT6_BUFFER_OPTION_basicPage",
+          "value": "NO BUFFER"
+        },
+        {
+          "name": "CLKOUT5_BUFX_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT4_EN",
+          "value": "false"
+        },
+        {
+          "name": "SSC_EN_basicPage",
+          "value": "DISABLE"
+        },
+        {
+          "name": "CLKOUT7_DPS_SEL_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT0_BUFGCE_EN",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_DUTY5",
+          "value": "21"
+        },
+        {
+          "name": "CLK_DPS0_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT7_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT1_BUFFER_OPTION_advancedPage",
+          "value": "NO BUFFER"
+        },
+        {
+          "name": "CLK_DPS1_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT0_BUFCE",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT4_BUFXCE_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT5_BUFCE",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT7_BUFXCE_EN",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_CPHASE1_advancedPage",
+          "value": "0"
+        },
+        {
+          "name": "CLKOUT3_BUFCE",
+          "value": "false"
+        },
+        {
+          "name": "MODE_CFG",
+          "value": "0"
+        },
+        {
+          "name": "CLKOUT2_BUFGCE_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLK_DPS4_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT3_IOCLKBUF_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT6_REQ_PHASE_basicPage",
+          "value": "0.000000",
+          "decimal": "6"
+        },
+        {
+          "name": "CLKOUT4_EN_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT0_BUFX_EN",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_RATIOI_advancedPage",
+          "value": "1"
+        },
+        {
+          "name": "CLKOUT1_REQ_DUTY_advancedPage",
+          "value": "24"
+        },
+        {
+          "name": "CLKOUT6_GATE_EN_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "DYNAMIC_CLKIN_EN_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT5_DPS_SEL_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT0_BUFXCE_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT2_EN_basicPage",
+          "value": "true"
+        },
+        {
+          "name": "CLKOUT1_NOBUF_EN",
+          "value": "true"
+        },
+        {
+          "name": "CLKOUT1_DPS_SEL_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT1_BUFCE",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT2_N_EN_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT7_REQ_FREQ_basicPage",
+          "value": "50.00000000",
+          "decimal": "8"
+        },
+        {
+          "name": "CLKOUT1_IOCLKBUF_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT5_DPS_SEL_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_RATIO5_advancedPage",
+          "value": "24"
+        },
+        {
+          "name": "STATIC_RATIO1",
+          "value": "104"
+        },
+        {
+          "name": "CLKOUT2_REQ_PHASE_basicPage",
+          "value": "0.000000",
+          "decimal": "6"
+        },
+        {
+          "name": "CLKOUT2_BUFFER_OPTION_advancedPage",
+          "value": "NO BUFFER"
+        },
+        {
+          "name": "CLKOUT3_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKIN2_INBUFDS_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT7_BUFGCE_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT6_EN_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKIN_FREQ",
+          "value": "27.00000000",
+          "decimal": "8"
+        },
+        {
+          "name": "STATIC_PHASE5_advancedPage",
+          "value": "0"
+        },
+        {
+          "name": "CLKOUT0_REQ_DUTY_advancedPage",
+          "value": "24"
+        },
+        {
+          "name": "CLKOUT8_GATE_EN_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT3_GATE_EN_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT5_REQ_DUTY_basicPage",
+          "value": "50.000000",
+          "decimal": "6"
+        },
+        {
+          "name": "CLKIN2_BUFG_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT5_REQ_PHASE_basicPage",
+          "value": "0.000000",
+          "decimal": "6"
+        },
+        {
+          "name": "CLKOUT7_N_EN_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT4_NOBUF_EN",
+          "value": "true"
+        },
+        {
+          "name": "CLKOUT2_NOBUF_EN",
+          "value": "true"
+        },
+        {
+          "name": "CLKOUT4_DPS_SEL_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_RATIO6",
+          "value": "21"
+        },
+        {
+          "name": "CLKOUT0_BUFG_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT7_GATE_EN_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT6_DPS_SEL_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT7_N_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT7_GATE_EN_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT2_GATE_EN_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_PHASE6",
+          "value": "0"
+        },
+        {
+          "name": "CLKOUT1_EN_advancedPage",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT1_EN",
+          "value": "true"
+        },
+        {
+          "name": "CLKOUT1_GATE_EN_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "STATIC_CPHASE4",
+          "value": "0"
+        },
+        {
+          "name": "STATIC_CPHASE8",
+          "value": "0"
+        },
+        {
+          "name": "CLKOUT3_BUFX_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT5_BUFXCE_EN",
+          "value": "false"
+        },
+        {
+          "name": "CLKOUT2_DPS_SEL_basicPage",
+          "value": "false"
+        },
+        {
+          "name": "SSC_MODE",
+          "value": "DISABLE"
+        },
+        {
+          "name": "FB_advancedPage",
+          "value": "7"
+        },
+        {
+          "name": "CLKOUT3_REQ_DUTY_advancedPage",
+          "value": "24"
+        },
+        {
+          "name": "CLKOUT3_REQ_DUTY_basicPage",
+          "value": "50.000000",
+          "decimal": "6"
+        },
+        {
+          "name": "STATIC_PHASE1",
+          "value": "0"
+        },
+        {
+          "name": "STATIC_PHASE5",
+          "value": "0"
+        },
+        {
+          "name": "CLKOUT4_BUFFER_OPTION_advancedPage",
+          "value": "NO BUFFER"
+        }
+      ],
+      "pins": [
+        {
+          "name": "clkout0",
+          "text": "clkout0",
+          "dir": "output",
+          "pos": "right"
+        },
+        {
+          "name": "clkout1",
+          "text": "clkout1",
+          "dir": "output",
+          "pos": "right"
+        },
+        {
+          "name": "clkout2",
+          "text": "clkout2",
+          "dir": "output",
+          "pos": "right"
+        },
+        {
+          "name": "lock",
+          "text": "lock",
+          "dir": "output",
+          "pos": "right"
+        },
+        {
+          "name": "clkin1",
+          "text": "clkin1",
+          "dir": "input",
+          "pos": "left"
+        }
+      ]
+    },
+    {
+      "instance": "ddr3_test",
+      "source_configuration_sha256": "b600d6102995be4e76b060dd45786b5e1497bd2e7499bbc04b870de9355f2747",
+      "header": {
+        "vendor": "Pango",
+        "id": "042003",
+        "display_name": "DDR3 Interface",
+        "name": "Logos2 HMIC_S",
+        "version": "1.10",
+        "instance": "ddr3_test",
+        "family": "Logos2",
+        "device": "PG2L100H",
+        "package": "FBG676",
+        "speedgrade": "-6",
+        "generator": "IP Compiler"
+      },
+      "parameters": [
+        {
+          "name": "A14_GROUP_NUM",
+          "value": "0"
+        },
+        {
+          "name": "PAD_DQ48",
+          "value": "H23"
+        },
+        {
+          "name": "DDR3_BASE_MEM_PART",
+          "value": "MT41K128M16XX"
+        },
+        {
+          "name": "A9_DQS_EN",
+          "value": "false"
+        },
+        {
+          "name": "GUI_DDR3_TRFC",
+          "value": "300.000",
+          "decimal": "3"
+        },
+        {
+          "name": "PAD_DQ38",
+          "value": "M14"
+        },
+        {
+          "name": "A15_EN",
+          "value": "false"
+        },
+        {
+          "name": "PAD_DQ17",
+          "value": "B5"
+        },
+        {
+          "name": "PAD_DQSN5",
+          "value": "J20"
+        },
+        {
+          "name": "PAD_DQ50",
+          "value": "J23"
+        },
+        {
+          "name": "CKE_DQS_EN",
+          "value": "true"
+        },
+        {
+          "name": "PAD_DQ27",
+          "value": "B2"
+        },
+        {
+          "name": "DQ6_EN",
+          "value": "false"
+        },
+        {
+          "name": "A13_DQS_EN",
+          "value": "false"
+        },
+        {
+          "name": "PAD_RAS",
+          "item": "U6",
+          "value": "P6"
+        },
+        {
+          "name": "BANK_DQG_5",
+          "item": "R5",
+          "value": "L4"
+        },
+        {
+          "name": "GPLL_BANDWIDTH",
+          "value": "HIGH"
+        },
+        {
+          "name": "PAD_DQ45",
+          "value": "L17"
+        },
+        {
+          "name": "DFI_CLK_PERIOD",
+          "value": "8000"
+        },
+        {
+          "name": "PAD_BA2",
+          "item": "U6",
+          "value": "T5"
+        },
+        {
+          "name": "A3_GROUP_NUM",
+          "value": "1"
+        },
+        {
+          "name": "DDRC_T_RC",
+          "value": "25"
+        },
+        {
+          "name": "DDR2_CL",
+          "value": "4"
+        },
+        {
+          "name": "BANK_CA",
+          "item": "R5",
+          "value": "R5"
+        },
+        {
+          "name": "PAD_DQ46",
+          "value": "G21"
+        },
+        {
+          "name": "PAD_DQ5",
+          "value": "J6"
+        },
+        {
+          "name": "PAD_DQ16",
+          "value": "A4"
+        },
+        {
+          "name": "PAD_A3",
+          "item": "U2",
+          "value": "P3"
+        },
+        {
+          "name": "DDR2_DFT_MEM_PART",
+          "value": "MT47H128M16XX-25E"
+        },
+        {
+          "name": "MEM_COLUMN_WIDTH",
+          "value": "10"
+        },
+        {
+          "name": "DDR3_CL_VALUE",
+          "value": "6"
+        },
+        {
+          "name": "A1_GROUP_NUM",
+          "value": "0"
+        },
+        {
+          "name": "PAD_DQ13",
+          "value": "H6"
+        },
+        {
+          "name": "PAD_DQS0",
+          "value": "H4"
+        },
+        {
+          "name": "CS_n_En",
+          "value": "true"
+        },
+        {
+          "name": "PAD_DQSN0",
+          "value": "J4"
+        },
+        {
+          "name": "DDRC_T_RP",
+          "value": "7"
+        },
+        {
+          "name": "PAD_DM5",
+          "value": "J19"
+        },
+        {
+          "name": "PAD_DQ36",
+          "value": "M16"
+        },
+        {
+          "name": "DQ5_BANK_NUM",
+          "value": "2"
+        },
+        {
+          "name": "PAD_DM4",
+          "value": "L14"
+        },
+        {
+          "name": "PAD_DQ52",
+          "value": "K23"
+        },
+        {
+          "name": "MEM_DM_WIDTH",
+          "value": "4"
+        },
+        {
+          "name": "PAD_DQ62",
+          "value": "G24"
+        },
+        {
+          "name": "DDR3_OUTPUT_DRIVER",
+          "value": "00"
+        },
+        {
+          "name": "PAD_DQ6",
+          "value": "K6"
+        },
+        {
+          "name": "PAD_DQ69",
+          "value": "N17"
+        },
+        {
+          "name": "DDR2_OUTPUT_DRIVER",
+          "value": "0"
+        },
+        {
+          "name": "GROUP_DQG_2",
+          "value": "G2"
+        },
+        {
+          "name": "GROUP_ODT",
+          "value": "G1"
+        },
+        {
+          "name": "MEM_BANK_WIDTH",
+          "value": "3"
+        },
+        {
+          "name": "GROUP_A15",
+          "value": "G3"
+        },
+        {
+          "name": "STATIC_RATIOF",
+          "value": "16"
+        },
+        {
+          "name": "DESIRED_DDR2_RATE",
+          "value": "600.000",
+          "decimal": "3"
+        },
+        {
+          "name": "DDRC_TREFI",
+          "value": "3900"
+        },
+        {
+          "name": "DDRC_T_RCD",
+          "value": "7"
+        },
+        {
+          "name": "PAD_DQ31",
+          "value": "F2"
+        },
+        {
+          "name": "A14_DQS_EN",
+          "value": "true"
+        },
+        {
+          "name": "CTRL_ADDR_WIDTH",
+          "value": "28"
+        },
+        {
+          "name": "BA2_EN",
+          "value": "true"
+        },
+        {
+          "name": "PAD_DQS5",
+          "value": "K20"
+        },
+        {
+          "name": "ODT_GROUP_NUM",
+          "value": "0"
+        },
+        {
+          "name": "A4_DQS_EN",
+          "value": "false"
+        },
+        {
+          "name": "DDR3_MEM_BANK_WIDTH",
+          "value": "3"
+        },
+        {
+          "name": "DDR3_AL",
+          "value": "2"
+        },
+        {
+          "name": "PAD_DQ10",
+          "value": "F8"
+        },
+        {
+          "name": "A12_GROUP_NUM",
+          "value": "1"
+        },
+        {
+          "name": "PHY_TMRD",
+          "value": "4"
+        },
+        {
+          "name": "PAD_DM2",
+          "value": "E5"
+        },
+        {
+          "name": "DDRC_T_RRD",
+          "value": "5"
+        },
+        {
+          "name": "PAD_A6",
+          "item": "U2",
+          "value": "U1"
+        },
+        {
+          "name": "CS_n_EN",
+          "value": "true"
+        },
+        {
+          "name": "BA2_GROUP_NUM",
+          "value": "2"
+        },
+        {
+          "name": "DDRC_T_RAS",
+          "value": "19"
+        },
+        {
+          "name": "A11_DQS_EN",
+          "value": "true"
+        },
+        {
+          "name": "PPLL_BANDWIDTH",
+          "value": "HIGH"
+        },
+        {
+          "name": "GROUP_CS",
+          "value": "G2"
+        },
+        {
+          "name": "GUI_DDR2_TREFI",
+          "value": "7.800",
+          "decimal": "3"
+        },
+        {
+          "name": "DDR2_MEM_ROW_WIDTH",
+          "value": "14"
+        },
+        {
+          "name": "DDRC_TRFC",
+          "value": "150"
+        },
+        {
+          "name": "GROUP_DQG_8",
+          "value": "G0"
+        },
+        {
+          "name": "PAD_DQS4",
+          "value": "K16"
+        },
+        {
+          "name": "GUI_DDR2_CL",
+          "value": "4"
+        },
+        {
+          "name": "GUI_LPDDR_CL_200",
+          "value": "2"
+        },
+        {
+          "name": "BANK_DQG_2",
+          "item": "R5",
+          "value": "R4"
+        },
+        {
+          "name": "PAD_DQ26",
+          "value": "C1"
+        },
+        {
+          "name": "DQ5_EN",
+          "value": "false"
+        },
+        {
+          "name": "GROUP_BA2",
+          "value": "G3"
+        },
+        {
+          "name": "PAD_DQ2",
+          "value": "G4"
+        },
+        {
+          "name": "ODT_DQS_EN",
+          "value": "false"
+        },
+        {
+          "name": "PAD_DQ32",
+          "value": "L15"
+        },
+        {
+          "name": "A0_GROUP_NUM",
+          "value": "0"
+        },
+        {
+          "name": "GUI_DDR3_TWTR",
+          "value": "7.500",
+          "decimal": "3"
+        },
+        {
+          "name": "A12_EN",
+          "value": "true"
+        },
+        {
+          "name": "A3_DQS_EN",
+          "value": "false"
+        },
+        {
+          "name": "GUI_LPDDR_TRAS",
+          "value": "45.000",
+          "decimal": "3"
+        },
+        {
+          "name": "GUI_DDR2_TWR",
+          "value": "15.000",
+          "decimal": "3"
+        },
+        {
+          "name": "DQ7_BANK_NUM",
+          "value": "2"
+        },
+        {
+          "name": "GROUP_DQG_4",
+          "value": "G0"
+        },
+        {
+          "name": "DDR_CHIP_DQ_WIDTH",
+          "value": "true"
+        },
+        {
+          "name": "PAD_A7",
+          "item": "N3",
+          "value": "K1"
+        },
+        {
+          "name": "LPDDR_MEM_BANK_WIDTH",
+          "value": "2"
+        },
+        {
+          "name": "PAD_DQ63",
+          "value": "H26"
+        },
+        {
+          "name": "GROUP_A10",
+          "value": "G2"
+        },
+        {
+          "name": "PHY_TMOD",
+          "value": "12"
+        },
+        {
+          "name": "GROUP_DQG_1",
+          "value": "G0"
+        },
+        {
+          "name": "DQ4_EN",
+          "value": "false"
+        },
+        {
+          "name": "GUI_DDR3_TREFI",
+          "value": "7.800",
+          "decimal": "3"
+        },
+        {
+          "name": "PAD_DQ44",
+          "value": "H19"
+        },
+        {
+          "name": "DDR3_MEM_ROW_WIDTH",
+          "value": "15"
+        },
+        {
+          "name": "PAD_ODT",
+          "item": "N3",
+          "value": "H2"
+        },
+        {
+          "name": "PAD_DM1",
+          "value": "H9"
+        },
+        {
+          "name": "PAD_DQ47",
+          "value": "J18"
+        },
+        {
+          "name": "GUI_DDR3_TRTP",
+          "value": "7.500",
+          "decimal": "3"
+        },
+        {
+          "name": "A2_DQS_EN",
+          "value": "false"
+        },
+        {
+          "name": "MEM_ROW_WIDTH",
+          "value": "15"
+        },
+        {
+          "name": "PAD_CKE",
+          "item": "U2",
+          "value": "R1"
+        },
+        {
+          "name": "PAD_DQ8",
+          "value": "E6"
+        },
+        {
+          "name": "PAD_A9",
+          "item": "N3",
+          "value": "K2"
+        },
+        {
+          "name": "PAD_DQS6",
+          "value": "G22"
+        },
+        {
+          "name": "PAD_DQ20",
+          "value": "D3"
+        },
+        {
+          "name": "A8_GROUP_NUM",
+          "value": "1"
+        },
+        {
+          "name": "PAD_DQ21",
+          "value": "D4"
+        },
+        {
+          "name": "RAS_GROUP_NUM",
+          "value": "2"
+        },
+        {
+          "name": "GROUP_A5",
+          "value": "G1"
+        },
+        {
+          "name": "DQ0_EN",
+          "value": "true"
+        },
+        {
+          "name": "DQ3_BANK_NUM",
+          "value": "1"
+        },
+        {
+          "name": "DDR2_INIT_WR",
+          "value": "6"
+        },
+        {
+          "name": "A1_DQS_EN",
+          "value": "false"
+        },
+        {
+          "name": "PAD_DQ70",
+          "value": "R16"
+        },
+        {
+          "name": "CUSTOMIZE_MEM",
+          "value": "false"
+        },
+        {
+          "name": "DQ1_EN",
+          "value": "true"
+        },
+        {
+          "name": "A9_GROUP_NUM",
+          "value": "0"
+        },
+        {
+          "name": "BANK2",
+          "value": "L6"
+        },
+        {
+          "name": "PAD_A15",
+          "item": "U6",
+          "value": "P5"
+        },
+        {
+          "name": "PAD_A4",
+          "item": "U2",
+          "value": "T2"
+        },
+        {
+          "name": "A5_DQS_EN",
+          "value": "true"
+        },
+        {
+          "name": "BA0_DQS_EN",
+          "value": "false"
+        },
+        {
+          "name": "GUI_DDR2_TRFC",
+          "value": "195.000",
+          "decimal": "3"
+        },
+        {
+          "name": "PHY_TRCD",
+          "value": "2"
+        },
+        {
+          "name": "A8_DQS_EN",
+          "value": "false"
+        },
+        {
+          "name": "PAD_DM7",
+          "value": "F25"
+        },
+        {
+          "name": "GUI_DDR2_AL",
+          "value": "2"
+        },
+        {
+          "name": "PAD_DQ24",
+          "value": "A2"
+        },
+        {
+          "name": "PAD_DQ43",
+          "value": "L18"
+        },
+        {
+          "name": "PAD_A12",
+          "item": "U2",
+          "value": "T4"
+        },
+        {
+          "name": "GUI_DDR2_TWTR",
+          "value": "7.500",
+          "decimal": "3"
+        },
+        {
+          "name": "DDR3_INIT_WR",
+          "value": "8"
+        },
+        {
+          "name": "A10_DQS_EN",
+          "value": "false"
+        },
+        {
+          "name": "PAD_A8",
+          "item": "U2",
+          "value": "U2"
+        },
+        {
+          "name": "PAD_CS",
+          "item": "U2",
+          "value": "N4"
+        },
+        {
+          "name": "GROUP_A9",
+          "value": "G1"
+        },
+        {
+          "name": "tREFI",
+          "value": "7800"
+        },
+        {
+          "name": "PAD_DQ23",
+          "value": "E3"
+        },
+        {
+          "name": "CS_DQS_EN",
+          "value": "false"
+        },
+        {
+          "name": "OPERATING_MODE",
+          "item": "PHY Only",
+          "value": "Controller + PHY"
+        },
+        {
+          "name": "PAD_CK",
+          "item": "U6",
+          "value": "U6"
+        },
+        {
+          "name": "PAD_DQ54",
+          "value": "J24"
+        },
+        {
+          "name": "GROUP_A12",
+          "value": "G2"
+        },
+        {
+          "name": "A15_DQS_EN",
+          "value": "false"
+        },
+        {
+          "name": "GROUP_CKE",
+          "value": "G2"
+        },
+        {
+          "name": "PAD_DM3",
+          "value": "G1"
+        },
+        {
+          "name": "GUI_LPDDR_TWR",
+          "value": "15.000",
+          "decimal": "3"
+        },
+        {
+          "name": "GROUP_A11",
+          "value": "G2"
+        },
+        {
+          "name": "GROUP_DQG_6",
+          "value": "G2"
+        },
+        {
+          "name": "CAS_DQS_EN",
+          "value": "false"
+        },
+        {
+          "name": "PAD_DQ9",
+          "value": "F7"
+        },
+        {
+          "name": "PAD_DQSN8",
+          "value": "P16"
+        },
+        {
+          "name": "BANK1",
+          "value": "R4"
+        },
+        {
+          "name": "GUI_LPDDR_TWTR",
+          "value": "2"
+        },
+        {
+          "name": "DDRC_T_FAW",
+          "value": "22"
+        },
+        {
+          "name": "A13_EN",
+          "value": "true"
+        },
+        {
+          "name": "BANK_DQG_0",
+          "item": "R5",
+          "value": "R4"
+        },
+        {
+          "name": "BANK_NUM",
+          "value": "2"
+        },
+        {
+          "name": "GUI_DDR3_AL",
+          "value": "CL-2"
+        },
+        {
+          "name": "CK_DQS_EN",
+          "value": "true"
+        },
+        {
+          "name": "PAD_DQ25",
+          "value": "A3"
+        },
+        {
+          "name": "DQ8_EN",
+          "value": "false"
+        },
+        {
+          "name": "CA_GROUP_NUM",
+          "value": "3"
+        },
+        {
+          "name": "PAD_DQS1",
+          "value": "G7"
+        },
+        {
+          "name": "PAD_DQ29",
+          "value": "E1"
+        },
+        {
+          "name": "PAD_DQ68",
+          "value": "N16"
+        },
+        {
+          "name": "MEM_DQS_WIDTH",
+          "value": "4"
+        },
+        {
+          "name": "A14_EN",
+          "value": "true"
+        },
+        {
+          "name": "PAD_DM8",
+          "value": "P18"
+        },
+        {
+          "name": "GROUP_WE",
+          "value": "G3"
+        },
+        {
+          "name": "PAD_A5",
+          "item": "N3",
+          "value": "M1"
+        },
+        {
+          "name": "DDRC_T_XP",
+          "value": "4"
+        },
+        {
+          "name": "PAD_DQ30",
+          "value": "E2"
+        },
+        {
+          "name": "DQ1_BANK_NUM",
+          "value": "1"
+        },
+        {
+          "name": "CK_GROUP_NUM",
+          "value": "2"
+        },
+        {
+          "name": "DQ7_EN",
+          "value": "false"
+        },
+        {
+          "name": "PAD_DM6",
+          "value": "H21"
+        },
+        {
+          "name": "GUI_DDR3_TRCD",
+          "value": "13.500",
+          "decimal": "3"
+        },
+        {
+          "name": "GROUP_A3",
+          "value": "G2"
+        },
+        {
+          "name": "A7_DQS_EN",
+          "value": "false"
+        },
+        {
+          "name": "PAD_DQSN6",
+          "value": "F22"
+        },
+        {
+          "name": "PHY_TXPR",
+          "value": "39"
+        },
+        {
+          "name": "A15_GROUP_NUM",
+          "value": "0"
+        },
+        {
+          "name": "PAD_BA0",
+          "item": "U2",
+          "value": "P4"
+        },
+        {
+          "name": "A0_DQS_EN",
+          "value": "false"
+        },
+        {
+          "name": "PAD_BA1",
+          "item": "U2",
+          "value": "R2"
+        },
+        {
+          "name": "USER_FDC_PATH",
+          "value": "Please select a fdc file"
+        },
+        {
+          "name": "PAD_DQ55",
+          "value": "H24"
+        },
+        {
+          "name": "BANK_DQG_8",
+          "item": "R5",
+          "value": "L5"
+        },
+        {
+          "name": "GROUP_A4",
+          "value": "G2"
+        },
+        {
+          "name": "PAD_DQ12",
+          "value": "G9"
+        },
+        {
+          "name": "PAD_DQ51",
+          "value": "E23"
+        },
+        {
+          "name": "PAD_A13",
+          "item": "N3",
+          "value": "M2"
+        },
+        {
+          "name": "BA1_DQS_EN",
+          "value": "false"
+        },
+        {
+          "name": "PAD_DQ15",
+          "value": "H6"
+        },
+        {
+          "name": "ACTUAL_RATE",
+          "value": "1000.000",
+          "decimal": "3"
+        },
+        {
+          "name": "DDR_MEM_PART",
+          "value": "MT41K256M16XX"
+        },
+        {
+          "name": "GUI_LPDDR_TRFC",
+          "value": "140.000",
+          "decimal": "3"
+        },
+        {
+          "name": "PAD_DQ19",
+          "value": "C4"
+        },
+        {
+          "name": "GROUP_CK",
+          "value": "G3"
+        },
+        {
+          "name": "BA1_GROUP_NUM",
+          "value": "1"
+        },
+        {
+          "name": "GROUP_A6",
+          "value": "G2"
+        },
+        {
+          "name": "BANK0",
+          "value": "R5"
+        },
+        {
+          "name": "PAD_DQ37",
+          "value": "J16"
+        },
+        {
+          "name": "GUI_DDR3_CL_1066",
+          "value": "7"
+        },
+        {
+          "name": "GROUP_A0",
+          "value": "G1"
+        },
+        {
+          "name": "CKE_GROUP_NUM",
+          "value": "1"
+        },
+        {
+          "name": "PAD_DQ65",
+          "value": "R15"
+        },
+        {
+          "name": "DESIRED_RATE",
+          "value": "1000.000",
+          "decimal": "3"
+        },
+        {
+          "name": "PAD_DQ66",
+          "value": "P14"
+        },
+        {
+          "name": "PAD_DQ33",
+          "value": "J15"
+        },
+        {
+          "name": "DDR3_WR",
+          "value": "4"
+        },
+        {
+          "name": "PAD_DQS7",
+          "value": "E26"
+        },
+        {
+          "name": "GUI_DDR3_CWL_1066",
+          "value": "6"
+        },
+        {
+          "name": "BANK_DQG_3",
+          "item": "R5",
+          "value": "R4"
+        },
+        {
+          "name": "DESIRED_DDR3_RATE",
+          "value": "1000.000",
+          "decimal": "3"
+        },
+        {
+          "name": "GUI_LPDDR_TREFI",
+          "value": "7.800",
+          "decimal": "3"
+        },
+        {
+          "name": "A11_GROUP_NUM",
+          "value": "1"
+        },
+        {
+          "name": "PAD_DQ59",
+          "value": "J25"
+        },
+        {
+          "name": "PAD_DQ22",
+          "value": "D5"
+        },
+        {
+          "name": "PAD_DQ35",
+          "value": "J14"
+        },
+        {
+          "name": "PHY_TRFC",
+          "value": "38"
+        },
+        {
+          "name": "DDRC_T_WTR",
+          "value": "4"
+        },
+        {
+          "name": "LPDDR_CL_VALUE",
+          "value": "2"
+        },
+        {
+          "name": "MEM_ADDR_WIDTH",
+          "value": "15"
+        },
+        {
+          "name": "GUI_DDR2_TRCD",
+          "value": "12.500",
+          "decimal": "3"
+        },
+        {
+          "name": "BA0_GROUP_NUM",
+          "value": "1"
+        },
+        {
+          "name": "GROUP_DQG_0",
+          "value": "G1"
+        },
+        {
+          "name": "DDR3_DFT_MEM_PART",
+          "value": "MT41K256M16XX"
+        },
+        {
+          "name": "PAD_DQ14",
+          "value": "G9"
+        },
+        {
+          "name": "MEM_TYPE",
+          "value": "DDR3"
+        },
+        {
+          "name": "BANK_DQG_6",
+          "item": "R5",
+          "value": "L4"
+        },
+        {
+          "name": "PAD_DQ53",
+          "value": "F23"
+        },
+        {
+          "name": "PAD_DQ49",
+          "value": "H22"
+        },
+        {
+          "name": "GUI_DDR3_TRP",
+          "value": "13.500",
+          "decimal": "3"
+        },
+        {
+          "name": "GUI_DDR2_TRTP",
+          "value": "7.500",
+          "decimal": "3"
+        },
+        {
+          "name": "GROUP_A13",
+          "value": "G1"
+        },
+        {
+          "name": "WE_DQS_EN",
+          "value": "false"
+        },
+        {
+          "name": "GUI_DDR3_TWR",
+          "value": "15.000",
+          "decimal": "3"
+        },
+        {
+          "name": "PAD_DQSN4",
+          "value": "K17"
+        },
+        {
+          "name": "DQ4_BANK_NUM",
+          "value": "2"
+        },
+        {
+          "name": "PAD_DQ28",
+          "value": "D1"
+        },
+        {
+          "name": "DDRC_T_WR",
+          "value": "8"
+        },
+        {
+          "name": "PAD_DQ67",
+          "value": "N14"
+        },
+        {
+          "name": "GUI_DDR3_CL_800",
+          "value": "6"
+        },
+        {
+          "name": "PAD_A0",
+          "item": "N3",
+          "value": "J1"
+        },
+        {
+          "name": "GROUP_DQG_5",
+          "value": "G1"
+        },
+        {
+          "name": "PHY_TRP",
+          "value": "2"
+        },
+        {
+          "name": "DQ3_EN",
+          "value": "true"
+        },
+        {
+          "name": "LPDDR_MEM_COLUMN_WIDTH",
+          "value": "11"
+        },
+        {
+          "name": "PAD_A1",
+          "item": "N3",
+          "value": "L3"
+        },
+        {
+          "name": "DQ6_BANK_NUM",
+          "value": "2"
+        },
+        {
+          "name": "GROUP_A14",
+          "value": "G1"
+        },
+        {
+          "name": "A13_GROUP_NUM",
+          "value": "0"
+        },
+        {
+          "name": "PAD_DQ56",
+          "value": "E25"
+        },
+        {
+          "name": "A2_GROUP_NUM",
+          "value": "0"
+        },
+        {
+          "name": "WE_GROUP_NUM",
+          "value": "2"
+        },
+        {
+          "name": "PAD_DQ18",
+          "value": "B4"
+        },
+        {
+          "name": "PAD_DQ58",
+          "value": "G25"
+        },
+        {
+          "name": "GROUP_A1",
+          "value": "G1"
+        },
+        {
+          "name": "PAD_DQ3",
+          "value": "G5"
+        },
+        {
+          "name": "CS_GROUP_NUM",
+          "value": "1"
+        },
+        {
+          "name": "DDR3_MEM_COLUMN_WIDTH",
+          "value": "10"
+        },
+        {
+          "name": "GROUP_DQG_7",
+          "value": "G3"
+        },
+        {
+          "name": "PAD_DQ11",
+          "value": "G6"
+        },
+        {
+          "name": "PAD_DQ42",
+          "value": "G20"
+        },
+        {
+          "name": "GROUP_RAS",
+          "value": "G3"
+        },
+        {
+          "name": "CLKIN_FREQ",
+          "value": "125.000",
+          "decimal": "3"
+        },
+        {
+          "name": "GROUP_BA1",
+          "value": "G2"
+        },
+        {
+          "name": "GROUP_DQG_3",
+          "value": "G3"
+        },
+        {
+          "name": "GROUP_CKN",
+          "value": "G3"
+        },
+        {
+          "name": "DQ2_BANK_NUM",
+          "value": "1"
+        },
+        {
+          "name": "MEM_DQ_WIDTH",
+          "item": "8",
+          "value": "32"
+        },
+        {
+          "name": "BANK_DQG_7",
+          "item": "R5",
+          "value": "L4"
+        },
+        {
+          "name": "PAD_WE",
+          "item": "U6",
+          "value": "T8"
+        },
+        {
+          "name": "PAD_DQSN1",
+          "value": "H7"
+        },
+        {
+          "name": "PAD_DM0",
+          "value": "K8"
+        },
+        {
+          "name": "GROUP_A8",
+          "value": "G2"
+        },
+        {
+          "name": "PAD_RESET",
+          "item": "U6",
+          "value": "H1"
+        },
+        {
+          "name": "DEVICE_100H_EN",
+          "value": "true"
+        },
+        {
+          "name": "DDR2_CL_VALUE",
+          "value": "4"
+        },
+        {
+          "name": "A6_DQS_EN",
+          "value": "false"
+        },
+        {
+          "name": "PAD_DQ64",
+          "value": "R14"
+        },
+        {
+          "name": "PAD_DQ34",
+          "value": "M15"
+        },
+        {
+          "name": "PAD_DQSN3",
+          "value": "C1"
+        },
+        {
+          "name": "PAD_DQ57",
+          "value": "G26"
+        },
+        {
+          "name": "PAD_DQ0",
+          "value": "F4"
+        },
+        {
+          "name": "A6_GROUP_NUM",
+          "value": "1"
+        },
+        {
+          "name": "LPDDR_DRIVER_STRENGTH",
+          "value": "000"
+        },
+        {
+          "name": "BA2_DQS_EN",
+          "value": "false"
+        },
+        {
+          "name": "A5_GROUP_NUM",
+          "value": "0"
+        },
+        {
+          "name": "PAD_DQ1",
+          "value": "F5"
+        },
+        {
+          "name": "GROUP_A2",
+          "value": "G1"
+        },
+        {
+          "name": "GUI_LPDDR_TRCD",
+          "value": "22.500",
+          "decimal": "3"
+        },
+        {
+          "name": "PAD_DQSN2",
+          "value": "B5"
+        },
+        {
+          "name": "A10_GROUP_NUM",
+          "value": "1"
+        },
+        {
+          "name": "RAS_DQS_EN",
+          "value": "false"
+        },
+        {
+          "name": "PAD_A14",
+          "item": "N3",
+          "value": "N1"
+        },
+        {
+          "name": "LPDDR_BASE_MEM_PART",
+          "value": "MT46H128M16XXXX-5L-IT"
+        },
+        {
+          "name": "GUI_LPDDR_TRP",
+          "value": "22.500",
+          "decimal": "3"
+        },
+        {
+          "name": "PAD_DQ71",
+          "value": "R17"
+        },
+        {
+          "name": "PAD_DQ40",
+          "value": "H18"
+        },
+        {
+          "name": "A4_GROUP_NUM",
+          "value": "1"
+        },
+        {
+          "name": "A12_DQS_EN",
+          "value": "false"
+        },
+        {
+          "name": "PAD_DQ61",
+          "value": "J26"
+        },
+        {
+          "name": "GROUP_CAS",
+          "value": "G3"
+        },
+        {
+          "name": "LPDDR_CL",
+          "value": "2"
+        },
+        {
+          "name": "GUI_LPDDR_CL_400",
+          "value": "2"
+        },
+        {
+          "name": "LPDDR_DFT_MEM_PART",
+          "value": "MT46H128M16XXXX-5L-IT"
+        },
+        {
+          "name": "DDR2_MEM_COLUMN_WIDTH",
+          "value": "10"
+        },
+        {
+          "name": "PAD_CKN",
+          "item": "U6",
+          "value": "U5"
+        },
+        {
+          "name": "GUI_DDR2_TRAS",
+          "value": "45.000",
+          "decimal": "3"
+        },
+        {
+          "name": "PAD_DQ60",
+          "value": "D25"
+        },
+        {
+          "name": "PAD_DQ39",
+          "value": "K15"
+        },
+        {
+          "name": "PAD_DQ41",
+          "value": "K21"
+        },
+        {
+          "name": "DQ2_EN",
+          "value": "true"
+        },
+        {
+          "name": "BANK_PLL_REF",
+          "item": "R5",
+          "value": "R5"
+        },
+        {
+          "name": "PAD_DQS3",
+          "value": "B1"
+        },
+        {
+          "name": "PAD_DQ4",
+          "value": "J5"
+        },
+        {
+          "name": "A7_GROUP_NUM",
+          "value": "0"
+        },
+        {
+          "name": "DESIRED_LPDDR_RATE",
+          "value": "200.000",
+          "decimal": "3"
+        },
+        {
+          "name": "GUI_DDR3_CWL_800",
+          "value": "5"
+        },
+        {
+          "name": "DDRC_T_RTP",
+          "value": "4"
+        },
+        {
+          "name": "USER_PINS_CON_EN",
+          "value": "false"
+        },
+        {
+          "name": "CAS_GROUP_NUM",
+          "value": "2"
+        },
+        {
+          "name": "PAD_DQ7",
+          "value": "K7"
+        },
+        {
+          "name": "PAD_A10",
+          "item": "U2",
+          "value": "T3"
+        },
+        {
+          "name": "STATIC_RATIOI",
+          "value": "1"
+        },
+        {
+          "name": "BANK_DQG_1",
+          "item": "R5",
+          "value": "R4"
+        },
+        {
+          "name": "DDR2_WR",
+          "value": "5"
+        },
+        {
+          "name": "DDR2_BASE_MEM_PART",
+          "value": "MT47H128M16XX-25E"
+        },
+        {
+          "name": "CS_N_EN",
+          "value": "true"
+        },
+        {
+          "name": "DDR2_ODT_VALUE",
+          "value": "01"
+        },
+        {
+          "name": "PAD_A2",
+          "item": "N3",
+          "value": "L2"
+        },
+        {
+          "name": "LPDDR_MEM_ROW_WIDTH",
+          "value": "14"
+        },
+        {
+          "name": "DDR3_CL",
+          "value": "7"
+        },
+        {
+          "name": "DDR3_ODT_VALUE",
+          "value": "001"
+        },
+        {
+          "name": "DDR3_CWL",
+          "value": "6"
+        },
+        {
+          "name": "STATIC_RATIO0",
+          "value": "2"
+        },
+        {
+          "name": "PAD_DQS8",
+          "value": "P15"
+        },
+        {
+          "name": "PAD_A11",
+          "item": "U2",
+          "value": "P1"
+        },
+        {
+          "name": "DDR2_MEM_BANK_WIDTH",
+          "value": "3"
+        },
+        {
+          "name": "CUSTOMIZE_CA",
+          "value": "true"
+        },
+        {
+          "name": "GROUP_BA0",
+          "value": "G2"
+        },
+        {
+          "name": "GUI_DDR3_TRAS",
+          "value": "37.500",
+          "decimal": "3"
+        },
+        {
+          "name": "DQ0_BANK_NUM",
+          "value": "1"
+        },
+        {
+          "name": "GROUP_A7",
+          "value": "G1"
+        },
+        {
+          "name": "DDR2_AL",
+          "value": "2"
+        },
+        {
+          "name": "tRFC_MIN",
+          "value": "300000.000",
+          "decimal": "3"
+        },
+        {
+          "name": "DQ8_BANK_NUM",
+          "value": "0"
+        },
+        {
+          "name": "PAD_CAS",
+          "item": "U6",
+          "value": "T7"
+        },
+        {
+          "name": "PAD_DQSN7",
+          "value": "D26"
+        },
+        {
+          "name": "PAD_DQS2",
+          "value": "A5"
+        },
+        {
+          "name": "BANK_DQG_4",
+          "item": "R5",
+          "value": "L4"
+        },
+        {
+          "name": "GUI_DDR2_TRP",
+          "value": "13.500",
+          "decimal": "3"
+        }
+      ],
+      "pins": [
+        {
+          "name": "resetn",
+          "text": "resetn",
+          "dir": "input",
+          "pos": "left"
+        },
+        {
+          "name": "core_clk",
+          "text": "core_clk",
+          "dir": "output",
+          "pos": "right"
+        },
+        {
+          "name": "pll_lock",
+          "text": "pll_lock",
+          "dir": "output",
+          "pos": "right"
+        },
+        {
+          "name": "phy_pll_lock",
+          "text": "phy_pll_lock",
+          "dir": "output",
+          "pos": "right"
+        },
+        {
+          "name": "gpll_lock",
+          "text": "gpll_lock",
+          "dir": "output",
+          "pos": "right"
+        },
+        {
+          "name": "rst_gpll_lock",
+          "text": "rst_gpll_lock",
+          "dir": "output",
+          "pos": "right"
+        },
+        {
+          "name": "ddrphy_cpd_lock",
+          "text": "ddrphy_cpd_lock",
+          "dir": "output",
+          "pos": "right"
+        },
+        {
+          "name": "ddr_init_done",
+          "text": "ddr_init_done",
+          "dir": "output",
+          "pos": "right"
+        },
+        {
+          "name": "axi_awaddr",
+          "text": "axi_awaddr",
+          "dir": "input",
+          "pos": "left",
+          "msb": "27",
+          "lsb": "0"
+        },
+        {
+          "name": "axi_awuser_ap",
+          "text": "axi_awuser_ap",
+          "dir": "input",
+          "pos": "left"
+        },
+        {
+          "name": "axi_awuser_id",
+          "text": "axi_awuser_id",
+          "dir": "input",
+          "pos": "left",
+          "msb": "3",
+          "lsb": "0"
+        },
+        {
+          "name": "axi_awlen",
+          "text": "axi_awlen",
+          "dir": "input",
+          "pos": "left",
+          "msb": "3",
+          "lsb": "0"
+        },
+        {
+          "name": "axi_awready",
+          "text": "axi_awready",
+          "dir": "output",
+          "pos": "right"
+        },
+        {
+          "name": "axi_awvalid",
+          "text": "axi_awvalid",
+          "dir": "input",
+          "pos": "left"
+        },
+        {
+          "name": "axi_wdata",
+          "text": "axi_wdata",
+          "dir": "input",
+          "pos": "left",
+          "msb": "255",
+          "lsb": "0"
+        },
+        {
+          "name": "axi_wstrb",
+          "text": "axi_wstrb",
+          "dir": "input",
+          "pos": "left",
+          "msb": "31",
+          "lsb": "0"
+        },
+        {
+          "name": "axi_wready",
+          "text": "axi_wready",
+          "dir": "output",
+          "pos": "right"
+        },
+        {
+          "name": "axi_wusero_id",
+          "text": "axi_wusero_id",
+          "dir": "output",
+          "pos": "right",
+          "msb": "3",
+          "lsb": "0"
+        },
+        {
+          "name": "axi_wusero_last",
+          "text": "axi_wusero_last",
+          "dir": "output",
+          "pos": "right"
+        },
+        {
+          "name": "axi_araddr",
+          "text": "axi_araddr",
+          "dir": "input",
+          "pos": "left",
+          "msb": "27",
+          "lsb": "0"
+        },
+        {
+          "name": "axi_aruser_ap",
+          "text": "axi_aruser_ap",
+          "dir": "input",
+          "pos": "left"
+        },
+        {
+          "name": "axi_aruser_id",
+          "text": "axi_aruser_id",
+          "dir": "input",
+          "pos": "left",
+          "msb": "3",
+          "lsb": "0"
+        },
+        {
+          "name": "axi_arlen",
+          "text": "axi_arlen",
+          "dir": "input",
+          "pos": "left",
+          "msb": "3",
+          "lsb": "0"
+        },
+        {
+          "name": "axi_arready",
+          "text": "axi_arready",
+          "dir": "output",
+          "pos": "right"
+        },
+        {
+          "name": "axi_arvalid",
+          "text": "axi_arvalid",
+          "dir": "input",
+          "pos": "left"
+        },
+        {
+          "name": "axi_rdata",
+          "text": "axi_rdata",
+          "dir": "output",
+          "pos": "right",
+          "msb": "255",
+          "lsb": "0"
+        },
+        {
+          "name": "axi_rid",
+          "text": "axi_rid",
+          "dir": "output",
+          "pos": "right",
+          "msb": "3",
+          "lsb": "0"
+        },
+        {
+          "name": "axi_rlast",
+          "text": "axi_rlast",
+          "dir": "output",
+          "pos": "right"
+        },
+        {
+          "name": "axi_rvalid",
+          "text": "axi_rvalid",
+          "dir": "output",
+          "pos": "right"
+        },
+        {
+          "name": "apb_clk",
+          "text": "apb_clk",
+          "dir": "input",
+          "pos": "left"
+        },
+        {
+          "name": "apb_rst_n",
+          "text": "apb_rst_n",
+          "dir": "input",
+          "pos": "left"
+        },
+        {
+          "name": "apb_sel",
+          "text": "apb_sel",
+          "dir": "input",
+          "pos": "left"
+        },
+        {
+          "name": "apb_enable",
+          "text": "apb_enable",
+          "dir": "input",
+          "pos": "left"
+        },
+        {
+          "name": "apb_addr",
+          "text": "apb_addr",
+          "dir": "input",
+          "pos": "left",
+          "msb": "7",
+          "lsb": "0"
+        },
+        {
+          "name": "apb_write",
+          "text": "apb_write",
+          "dir": "input",
+          "pos": "left"
+        },
+        {
+          "name": "apb_ready",
+          "text": "apb_ready",
+          "dir": "output",
+          "pos": "right"
+        },
+        {
+          "name": "apb_wdata",
+          "text": "apb_wdata",
+          "dir": "input",
+          "pos": "left",
+          "msb": "15",
+          "lsb": "0"
+        },
+        {
+          "name": "apb_rdata",
+          "text": "apb_rdata",
+          "dir": "output",
+          "pos": "right",
+          "msb": "15",
+          "lsb": "0"
+        },
+        {
+          "name": "mem_cs_n",
+          "text": "mem_cs_n",
+          "dir": "output",
+          "pos": "right"
+        },
+        {
+          "name": "mem_rst_n",
+          "text": "mem_rst_n",
+          "dir": "output",
+          "pos": "right"
+        },
+        {
+          "name": "mem_ck",
+          "text": "mem_ck",
+          "dir": "output",
+          "pos": "right"
+        },
+        {
+          "name": "mem_ck_n",
+          "text": "mem_ck_n",
+          "dir": "output",
+          "pos": "right"
+        },
+        {
+          "name": "mem_cke",
+          "text": "mem_cke",
+          "dir": "output",
+          "pos": "right"
+        },
+        {
+          "name": "mem_ras_n",
+          "text": "mem_ras_n",
+          "dir": "output",
+          "pos": "right"
+        },
+        {
+          "name": "mem_cas_n",
+          "text": "mem_cas_n",
+          "dir": "output",
+          "pos": "right"
+        },
+        {
+          "name": "mem_we_n",
+          "text": "mem_we_n",
+          "dir": "output",
+          "pos": "right"
+        },
+        {
+          "name": "mem_odt",
+          "text": "mem_odt",
+          "dir": "output",
+          "pos": "right"
+        },
+        {
+          "name": "mem_a",
+          "text": "mem_a",
+          "dir": "output",
+          "pos": "right",
+          "msb": "14",
+          "lsb": "0"
+        },
+        {
+          "name": "mem_ba",
+          "text": "mem_ba",
+          "dir": "output",
+          "pos": "right",
+          "msb": "2",
+          "lsb": "0"
+        },
+        {
+          "name": "mem_dqs",
+          "text": "mem_dqs",
+          "dir": "inout",
+          "pos": "left",
+          "msb": "3",
+          "lsb": "0"
+        },
+        {
+          "name": "mem_dqs_n",
+          "text": "mem_dqs_n",
+          "dir": "inout",
+          "pos": "left",
+          "msb": "3",
+          "lsb": "0"
+        },
+        {
+          "name": "mem_dq",
+          "text": "mem_dq",
+          "dir": "inout",
+          "pos": "left",
+          "msb": "31",
+          "lsb": "0"
+        },
+        {
+          "name": "mem_dm",
+          "text": "mem_dm",
+          "dir": "output",
+          "pos": "right",
+          "msb": "3",
+          "lsb": "0"
+        },
+        {
+          "name": "dbg_gate_start",
+          "text": "dbg_gate_start",
+          "dir": "input",
+          "pos": "left"
+        },
+        {
+          "name": "dbg_cpd_start",
+          "text": "dbg_cpd_start",
+          "dir": "input",
+          "pos": "left"
+        },
+        {
+          "name": "dbg_ddrphy_rst_n",
+          "text": "dbg_ddrphy_rst_n",
+          "dir": "input",
+          "pos": "left"
+        },
+        {
+          "name": "dbg_gpll_scan_rst",
+          "text": "dbg_gpll_scan_rst",
+          "dir": "input",
+          "pos": "left"
+        },
+        {
+          "name": "samp_position_dyn_adj",
+          "text": "samp_position_dyn_adj",
+          "dir": "input",
+          "pos": "left"
+        },
+        {
+          "name": "init_samp_position_even",
+          "text": "init_samp_position_even",
+          "dir": "input",
+          "pos": "left",
+          "msb": "31",
+          "lsb": "0"
+        },
+        {
+          "name": "init_samp_position_odd",
+          "text": "init_samp_position_odd",
+          "dir": "input",
+          "pos": "left",
+          "msb": "31",
+          "lsb": "0"
+        },
+        {
+          "name": "wrcal_position_dyn_adj",
+          "text": "wrcal_position_dyn_adj",
+          "dir": "input",
+          "pos": "left"
+        },
+        {
+          "name": "init_wrcal_position",
+          "text": "init_wrcal_position",
+          "dir": "input",
+          "pos": "left",
+          "msb": "31",
+          "lsb": "0"
+        },
+        {
+          "name": "force_read_clk_ctrl",
+          "text": "force_read_clk_ctrl",
+          "dir": "input",
+          "pos": "left"
+        },
+        {
+          "name": "init_slip_step",
+          "text": "init_slip_step",
+          "dir": "input",
+          "pos": "left",
+          "msb": "15",
+          "lsb": "0"
+        },
+        {
+          "name": "init_read_clk_ctrl",
+          "text": "init_read_clk_ctrl",
+          "dir": "input",
+          "pos": "left",
+          "msb": "11",
+          "lsb": "0"
+        },
+        {
+          "name": "debug_calib_ctrl",
+          "text": "debug_calib_ctrl",
+          "dir": "output",
+          "pos": "right",
+          "msb": "33",
+          "lsb": "0"
+        },
+        {
+          "name": "dbg_slice_status",
+          "text": "dbg_slice_status",
+          "dir": "output",
+          "pos": "right",
+          "msb": "67",
+          "lsb": "0"
+        },
+        {
+          "name": "dbg_slice_state",
+          "text": "dbg_slice_state",
+          "dir": "output",
+          "pos": "right",
+          "msb": "87",
+          "lsb": "0"
+        },
+        {
+          "name": "debug_data",
+          "text": "debug_data",
+          "dir": "output",
+          "pos": "right",
+          "msb": "275",
+          "lsb": "0"
+        },
+        {
+          "name": "dbg_dll_upd_state",
+          "text": "dbg_dll_upd_state",
+          "dir": "output",
+          "pos": "right",
+          "msb": "1",
+          "lsb": "0"
+        },
+        {
+          "name": "debug_gpll_dps_phase",
+          "text": "debug_gpll_dps_phase",
+          "dir": "output",
+          "pos": "right",
+          "msb": "8",
+          "lsb": "0"
+        },
+        {
+          "name": "dbg_rst_dps_state",
+          "text": "dbg_rst_dps_state",
+          "dir": "output",
+          "pos": "right",
+          "msb": "2",
+          "lsb": "0"
+        },
+        {
+          "name": "dbg_tran_err_rst_cnt",
+          "text": "dbg_tran_err_rst_cnt",
+          "dir": "output",
+          "pos": "right",
+          "msb": "5",
+          "lsb": "0"
+        },
+        {
+          "name": "dbg_ddrphy_init_fail",
+          "text": "dbg_ddrphy_init_fail",
+          "dir": "output",
+          "pos": "right"
+        },
+        {
+          "name": "debug_cpd_offset_adj",
+          "text": "debug_cpd_offset_adj",
+          "dir": "input",
+          "pos": "left"
+        },
+        {
+          "name": "debug_cpd_offset_dir",
+          "text": "debug_cpd_offset_dir",
+          "dir": "input",
+          "pos": "left"
+        },
+        {
+          "name": "debug_cpd_offset",
+          "text": "debug_cpd_offset",
+          "dir": "input",
+          "pos": "left",
+          "msb": "9",
+          "lsb": "0"
+        },
+        {
+          "name": "debug_dps_cnt_dir0",
+          "text": "debug_dps_cnt_dir0",
+          "dir": "output",
+          "pos": "right",
+          "msb": "9",
+          "lsb": "0"
+        },
+        {
+          "name": "debug_dps_cnt_dir1",
+          "text": "debug_dps_cnt_dir1",
+          "dir": "output",
+          "pos": "right",
+          "msb": "9",
+          "lsb": "0"
+        },
+        {
+          "name": "ck_dly_en",
+          "text": "ck_dly_en",
+          "dir": "input",
+          "pos": "left"
+        },
+        {
+          "name": "init_ck_dly_step",
+          "text": "init_ck_dly_step",
+          "dir": "input",
+          "pos": "left",
+          "msb": "7",
+          "lsb": "0"
+        },
+        {
+          "name": "ck_dly_set_bin",
+          "text": "ck_dly_set_bin",
+          "dir": "output",
+          "pos": "right",
+          "msb": "7",
+          "lsb": "0"
+        },
+        {
+          "name": "align_error",
+          "text": "align_error",
+          "dir": "output",
+          "pos": "right"
+        },
+        {
+          "name": "debug_rst_state",
+          "text": "debug_rst_state",
+          "dir": "output",
+          "pos": "right",
+          "msb": "3",
+          "lsb": "0"
+        },
+        {
+          "name": "debug_cpd_state",
+          "text": "debug_cpd_state",
+          "dir": "output",
+          "pos": "right",
+          "msb": "3",
+          "lsb": "0"
+        }
+      ]
+    },
+    {
+      "instance": "rd_fram_buf",
+      "source_configuration_sha256": "687d33d6f9665917e9c51dc10ab537c1dca59f521c48d15f654c61163b733eb8",
+      "header": {
+        "vendor": "Pango",
+        "id": "04100202",
+        "display_name": "DRM Based Simple Dual Port RAM",
+        "name": "28nm DRM Based Simple Dual Port RAM",
+        "version": "1.10",
+        "instance": "rd_fram_buf",
+        "family": "Logos2",
+        "device": "PG2L100H",
+        "package": "FBG484",
+        "speedgrade": "-6",
+        "generator": "IP Compiler"
+      },
+      "parameters": [
+        {
+          "name": "RD_DATA_WIDTH",
+          "value": "32"
+        },
+        {
+          "name": "POWER_OPT",
+          "value": "false"
+        },
+        {
+          "name": "INIT_FORMAT",
+          "value": "BIN"
+        },
+        {
+          "name": "BYTE_SIZE",
+          "value": "8"
+        },
+        {
+          "name": "RST_VAL",
+          "value": "0"
+        },
+        {
+          "name": "RESET_TYPE",
+          "value": "ASYNC"
+        },
+        {
+          "name": "INIT_FILE",
+          "value": "NONE"
+        },
+        {
+          "name": "CAS_MODE",
+          "value": "18K"
+        },
+        {
+          "name": "WR_ADDR_STROBE_EN",
+          "value": "false"
+        },
+        {
+          "name": "WR_ADDR_WIDTH",
+          "value": "9"
+        },
+        {
+          "name": "RST_VAL_EN",
+          "value": "false"
+        },
+        {
+          "name": "WR_CLK_EN",
+          "value": "false"
+        },
+        {
+          "name": "RD_BE_WIDTH",
+          "value": "1"
+        },
+        {
+          "name": "WR_DATA_WIDTH",
+          "value": "256"
+        },
+        {
+          "name": "RD_ADDR_STROBE_EN",
+          "value": "false"
+        },
+        {
+          "name": "SAMEWIDTH_EN",
+          "value": "false"
+        },
+        {
+          "name": "RD_ADDR_WIDTH",
+          "value": "12"
+        },
+        {
+          "name": "INIT_EN",
+          "value": "false"
+        },
+        {
+          "name": "OUTPUT_REG",
+          "value": "false"
+        },
+        {
+          "name": "CAS_MODE_SEL",
+          "value": "DRM18K"
+        },
+        {
+          "name": "RD_CLK_OR_POL_INV",
+          "value": "false"
+        },
+        {
+          "name": "FAB_REG",
+          "value": "false"
+        },
+        {
+          "name": "RD_CLK_EN",
+          "value": "false"
+        },
+        {
+          "name": "BE_WIDTH",
+          "value": "1"
+        },
+        {
+          "name": "WR_BYTE_EN",
+          "value": "false"
+        },
+        {
+          "name": "RD_OCE_EN",
+          "value": "false"
+        }
+      ],
+      "pins": [
+        {
+          "name": "wr_data",
+          "text": "wr_data",
+          "dir": "input",
+          "pos": "left",
+          "msb": "255",
+          "lsb": "0"
+        },
+        {
+          "name": "wr_addr",
+          "text": "wr_addr",
+          "dir": "input",
+          "pos": "left",
+          "msb": "8",
+          "lsb": "0"
+        },
+        {
+          "name": "wr_en",
+          "text": "wr_en",
+          "dir": "input",
+          "pos": "left"
+        },
+        {
+          "name": "wr_clk",
+          "text": "wr_clk",
+          "dir": "input",
+          "pos": "left"
+        },
+        {
+          "name": "wr_rst",
+          "text": "wr_rst",
+          "dir": "input",
+          "pos": "left"
+        },
+        {
+          "name": "rd_addr",
+          "text": "rd_addr",
+          "dir": "input",
+          "pos": "right",
+          "msb": "11",
+          "lsb": "0"
+        },
+        {
+          "name": "rd_data",
+          "text": "rd_data",
+          "dir": "output",
+          "pos": "right",
+          "msb": "31",
+          "lsb": "0"
+        },
+        {
+          "name": "rd_clk",
+          "text": "rd_clk",
+          "dir": "input",
+          "pos": "right"
+        },
+        {
+          "name": "rd_rst",
+          "text": "rd_rst",
+          "dir": "input",
+          "pos": "right"
+        }
+      ]
+    },
+    {
+      "instance": "wr_fram_buf",
+      "source_configuration_sha256": "4d3214ee0f69f3a375c03541cf5cec4f5a778f969bbbd899c35bf23987321967",
+      "header": {
+        "vendor": "Pango",
+        "id": "04100202",
+        "display_name": "DRM Based Simple Dual Port RAM",
+        "name": "28nm DRM Based Simple Dual Port RAM",
+        "version": "1.10",
+        "instance": "wr_fram_buf",
+        "family": "Logos2",
+        "device": "PG2L100H",
+        "package": "FBG484",
+        "speedgrade": "-6",
+        "generator": "IP Compiler"
+      },
+      "parameters": [
+        {
+          "name": "RD_OCE_EN",
+          "value": "false"
+        },
+        {
+          "name": "RD_CLK_EN",
+          "value": "false"
+        },
+        {
+          "name": "CAS_MODE_SEL",
+          "value": "AUTO"
+        },
+        {
+          "name": "RD_ADDR_STROBE_EN",
+          "value": "false"
+        },
+        {
+          "name": "RST_VAL",
+          "value": "0"
+        },
+        {
+          "name": "RD_DATA_WIDTH",
+          "value": "256"
+        },
+        {
+          "name": "POWER_OPT",
+          "value": "false"
+        },
+        {
+          "name": "RD_CLK_OR_POL_INV",
+          "value": "false"
+        },
+        {
+          "name": "WR_BYTE_EN",
+          "value": "false"
+        },
+        {
+          "name": "FAB_REG",
+          "value": "false"
+        },
+        {
+          "name": "WR_ADDR_WIDTH",
+          "value": "12"
+        },
+        {
+          "name": "WR_ADDR_STROBE_EN",
+          "value": "false"
+        },
+        {
+          "name": "WR_DATA_WIDTH",
+          "value": "32"
+        },
+        {
+          "name": "INIT_EN",
+          "value": "false"
+        },
+        {
+          "name": "BYTE_SIZE",
+          "value": "8"
+        },
+        {
+          "name": "BE_WIDTH",
+          "value": "1"
+        },
+        {
+          "name": "RESET_TYPE",
+          "value": "ASYNC"
+        },
+        {
+          "name": "RST_VAL_EN",
+          "value": "false"
+        },
+        {
+          "name": "INIT_FORMAT",
+          "value": "BIN"
+        },
+        {
+          "name": "OUTPUT_REG",
+          "value": "false"
+        },
+        {
+          "name": "CAS_MODE",
+          "value": "36K"
+        },
+        {
+          "name": "RD_BE_WIDTH",
+          "value": "1"
+        },
+        {
+          "name": "INIT_FILE",
+          "value": "NONE"
+        },
+        {
+          "name": "RD_ADDR_WIDTH",
+          "value": "9"
+        },
+        {
+          "name": "SAMEWIDTH_EN",
+          "value": "false"
+        },
+        {
+          "name": "WR_CLK_EN",
+          "value": "false"
+        }
+      ],
+      "pins": [
+        {
+          "name": "wr_data",
+          "text": "wr_data",
+          "dir": "input",
+          "pos": "left",
+          "msb": "31",
+          "lsb": "0"
+        },
+        {
+          "name": "wr_addr",
+          "text": "wr_addr",
+          "dir": "input",
+          "pos": "left",
+          "msb": "11",
+          "lsb": "0"
+        },
+        {
+          "name": "wr_en",
+          "text": "wr_en",
+          "dir": "input",
+          "pos": "left"
+        },
+        {
+          "name": "wr_clk",
+          "text": "wr_clk",
+          "dir": "input",
+          "pos": "left"
+        },
+        {
+          "name": "wr_rst",
+          "text": "wr_rst",
+          "dir": "input",
+          "pos": "left"
+        },
+        {
+          "name": "rd_addr",
+          "text": "rd_addr",
+          "dir": "input",
+          "pos": "right",
+          "msb": "8",
+          "lsb": "0"
+        },
+        {
+          "name": "rd_data",
+          "text": "rd_data",
+          "dir": "output",
+          "pos": "right",
+          "msb": "255",
+          "lsb": "0"
+        },
+        {
+          "name": "rd_clk",
+          "text": "rd_clk",
+          "dir": "input",
+          "pos": "right"
+        },
+        {
+          "name": "rd_rst",
+          "text": "rd_rst",
+          "dir": "input",
+          "pos": "right"
+        }
+      ]
+    }
+  ]
+}

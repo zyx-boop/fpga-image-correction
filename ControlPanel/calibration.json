@@ -1,0 +1,18 @@
+{
+  "pan": {
+    "zero_us": 1611,
+    "us_per_degree": 11.11111111111111,
+    "direction": 1,
+    "minimum_us": 1000,
+    "maximum_us": 2000,
+    "calibrated": false
+  },
+  "tilt": {
+    "zero_us": 1278,
+    "us_per_degree": 7.407407407407407,
+    "direction": 1,
+    "minimum_us": 1000,
+    "maximum_us": 2000,
+    "calibrated": false
+  }
+}
